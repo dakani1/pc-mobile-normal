@@ -1,0 +1,12 @@
+body{
+    border:10px solid red;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:997px){
+    body{
+        border:10px solid green;
+        min-width:800px;
+    }
+}
+
