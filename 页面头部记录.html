@@ -39,10 +39,32 @@
                 }
                 return "mobile";
             }
-
-
         }
     </script>
+    <!--<script>-->
+        <!--screenW();-->
+        <!--window.onresize = function () {-->
+            <!--screenW();-->
+        <!--};-->
+        <!--function screenW(){-->
+            <!--if (!(navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {-->
+                <!--//电脑端-->
+                <!--return "pc";-->
+            <!--}else{-->
+                <!--//mobile端-->
+                <!--var screenW=screen.availWidth;-->
+                <!--var viewport = document.getElementById('viewport');-->
+                <!--if(screenW>768){-->
+                    <!--viewport.setAttribute("content","width=device-width,user-scalable=0");-->
+                    <!--pcMobile.attr("href","./css/mobile.css");-->
+                <!--}else{-->
+                    <!--viewport.setAttribute("content","width=768,user-scalable=0");-->
+                    <!--pcMobile.attr("href","./css/mobile.css");-->
+                <!--}-->
+                <!--return "mobile";-->
+            <!--}-->
+        <!--}-->
+    <!--</script>-->
 </head>
 <body>
     <div class="header">
